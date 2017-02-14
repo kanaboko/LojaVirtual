@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Biude.LojaVirtual.Dominio.Entidades
 {
-    public class Produtos
+    public class Produto
     {
         public int ProdutoID { get; set; }
         public string Nome { get; set; }
