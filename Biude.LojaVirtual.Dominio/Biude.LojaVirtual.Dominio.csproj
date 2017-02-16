@@ -78,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entidades\Produto.cs" />
+    <Compile Include="Entidades\Teste.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio\EFDBContext.cs" />
     <Compile Include="Repositorio\ProdutosRepositorio.cs" />

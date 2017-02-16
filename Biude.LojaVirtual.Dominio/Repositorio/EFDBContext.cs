@@ -12,10 +12,12 @@ namespace Biude.LojaVirtual.Dominio.Repositorio
     public class EFDBContext: DbContext
     {
         public DbSet<Produto> Produtos;
+        public DbSet<Teste> Testes;
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
             modelBuilder.Entity<Produto>().ToTable("Produtos");
+            modelBuilder.Entity<Teste>().ToTable("Teste");
         }
     }
 
